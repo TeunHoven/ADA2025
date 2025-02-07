@@ -16,7 +16,7 @@ spec:
         app: training-api
     spec:
       containers:
-      - image: LOCATION-docker.pkg.dev/ada2025-450209/labrepo/training-api:0.0.1 # Docker image name, that we pushed to GCR - use your project id, location, and labrepo
+      - image: us-central1-docker.pkg.dev/ada2025-450209/labrepo/training-api:0.0.1 # Docker image name, that we pushed to GCR - use your project id, us-central1, and labrepo
         name: training-api
         ports:
         - containerPort: 5000
